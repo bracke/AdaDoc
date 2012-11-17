@@ -1,0 +1,53 @@
+Body {
+font-size : medium;
+font-family : 'Arial Ce';
+background-color : white;
+}
+H1 {
+font-size : large;
+font-family : 'Arial Black';
+}
+H2 {
+font-size : small;
+font-family : 'Arial Narow';
+}
+Th {
+font-size : small;
+font-weight : bold;
+text-align : left;
+}
+Td {
+font-size : x-small;
+border : 0.1em solid ;
+border-color : #aaaaff;
+}
+.Clr0 {
+background : #696dff;
+}
+.Clr1 {
+background : #aaaaff;
+}
+.Clr2 {
+background : #bbbbff;
+}
+.Clr3 {
+background : #ccccff;
+}
+.Clr4 {
+background : #ddddff;
+}
+.Clr5 {
+background : #eeeeff;
+}
+A:link {
+color : #2d37ff;
+text-decoration : none;
+}
+A:visited {
+color : #2d37ff;
+text-decoration : none;
+}
+A:hover {
+color : #696dff;
+text-decoration : none;
+} 

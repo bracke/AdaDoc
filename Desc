@@ -1,0 +1,49 @@
+# StrongEd$Mode = FrontEnd
+# This is a description of the wimp interface for AdaDoc
+
+tool_details_start
+   name          "AdaDoc";
+   command_is    "<AdaDoc$Dir>.AdaDoc ";
+   version       "2.02 (2005-03-13)";
+   wimpslot       2048k;
+   has_extended_cmdline;
+tool_details_end
+
+metaoptions_start
+   has_text_window;
+   display_dft_is text;
+metaoptions_end
+
+fileoutput_start
+   output_dft_is produces_output;
+fileoutput_end
+
+dbox_start
+   #icon mappings
+   icons_start
+      icn 6 maps_to string;
+      icn 8 maps_to "-H";
+      icn 7 maps_to "-x";
+      icn 9 maps_to "-L";
+      icn 10 maps_to "-S";
+      icn 11 maps_to "-c";
+   icons_end
+   
+   #default icon values
+   defaults
+      icn 8 off,
+      icn 7 off,
+      icn 9 off,
+      icn 10 on,
+      icn 11 off,
+      icn 6 "";
+      
+   #drags to dbox (and icon bar)
+   imports_start
+      drag_to icn 6 inserts icn 6;
+      drag_to iconbar inserts icn 6;
+   imports_end
+dbox_end
+
+order_is
+  icn 7, icn 11, icn 8, icn 9, icn 10, icn 6;

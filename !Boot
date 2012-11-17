@@ -1,0 +1,13 @@
+Set AdaDoc$Dir <Obey$Dir>
+|
+Set AdaDoc$Help <AdaDoc$Dir>.!Help
+Set AdaDoc$Version "2.02"
+Set AdaDoc$Web "http://www.arcsite.de/hp/bracke/programming/mtools.html"
+Set AdaDoc$Title "AdaDoc"
+Set AdaDoc$Publisher "Bent Bracke"
+Set AdaDoc$Description "AdaDoc generates documentation based on Ada specifications in either HTML,XML,LaTeX or StrongHelp format."
+|
+Set AdaDoc$ro4 1
+RMEnsure UtilityModule 4.00 Set AdaDoc$ro4 0
+If <AdaDoc$ro4>=1 Then IconSprites <Obey$Dir>.!Sprites4 Else IconSprites <Obey$Dir>.!Sprites
+Unset AdaDoc$ro4
