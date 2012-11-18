@@ -2,11 +2,10 @@
 AdaDoc consists of a commandline program 'AdaDoc' by Julien Burdy &
 Vincent Decorges and a frontend (this).
 
-
 To read more about the backend (AdaDoc) go to:
 http://adadoc.sourceforge.net/
 
-NOTE: This is a RISC OS app.
+NOTE: This is a RISC OS app and will not run on other platforms.
 
 # Frontend use
 
